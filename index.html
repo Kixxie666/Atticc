@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attic Studios</title>
+    
+    <!-- Improved SEO & Accessibility -->
+    <meta name="description" content="Attic Studios - High-quality rehearsal spaces with top-tier equipment. Find our location, opening times, and available rooms.">
+    <meta name="keywords" content="Attic Studios, rehearsal rooms, music, band practice, recording studio">
+    <meta name="author" content="Attic Studios">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="Band.png" alt="Attic Studios Logo" class="logo">
+            <div class="header-text">
+                <h1>ATTIC STUDIOS</h1>
+                <p>Call for info: <a href="tel:01142789951">0114 2789951</a></p>
+            </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <section>
+            <h2>Rehearsal Spaces Available</h2>
+            <div class="opening-times">
+                <h3>Opening Times</h3>
+                <ul>
+                    <li>Weekdays: 12pm - 9pm</li>
+                    <li>Saturdays: Closed</li>
+                    <li>Sundays: 12pm - 7pm</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="media-container">
+            <div class="slideshow">
+                <img src="drum.png" alt="Drum Set" class="active">
+                <img src="room.png" alt="Rehearsal Room">
+                <img src="Room-3.png" alt="Room 3">
+            </div>
+            <div class="youtube-video">
+                <iframe src="https://www.youtube.com/embed/0qanF-91aJo" title="BLACK SABBATH - 'Paranoid'" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="room-list">
+            <h2>Our Rooms</h2>
+            <div class="rooms">
+                <div class="room" onclick="toggleRoomDetails('room1')">
+                    <h3>Room 1 <i class="fas fa-chevron-down"></i></h3>
+                    <div id="room1" class="room-details">
+                        <p>Fully equipped with drum kits, amplifiers, and microphones.</p>
+                    </div>
+                </div>
+                <div class="room" onclick="toggleRoomDetails('room2')">
+                    <h3>Room 2 <i class="fas fa-chevron-down"></i></h3>
+                    <div id="room2" class="room-details">
+                        <p>Ideal for small bands with high-quality sound isolation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="location">
+            <h2>Where to find us</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12..." allowfullscreen></iframe>
+            <div class="address">
+                <p>Attic Recording Studios, Unit S25, The Lion Works, Sheffield S3 8DB</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>No age or ability limits | Secure off-road parking with CCTV</p>
+        <p>Call us: <a href="tel:01142789951">0114 2789951</a></p>
+    </footer>
+
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+/* Reset & General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1e1e1e;
+    color: #ffffff;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+/* Header Styles */
+header {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 20px;
+}
+
+/* Main Content */
+.main-content {
+    padding: 20px;
+}
+
+.opening-times {
+    background: #222;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.media-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.slideshow img {
+    width: 300px;
+    display: none;
+}
+
+.slideshow img.active {
+    display: block;
+}
+
+/* Room Styles */
+.room-list {
+    margin-top: 30px;
+}
+
+.room {
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.room:hover {
+    background: #444;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    margin-top: 20px;
+}

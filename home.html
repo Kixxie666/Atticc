@@ -1,0 +1,435 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attic Studios</title>
+
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self'; 
+        script-src 'self' https://cdnjs.cloudflare.com 'unsafe-inline'; 
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; 
+        font-src 'self' https://fonts.gstatic.com; 
+        img-src 'self' data:; 
+        frame-src 'self' https://www.youtube.com https://www.google.com;
+        connect-src 'self'; 
+        object-src 'none'; 
+        form-action 'self'; 
+        base-uri 'self';
+    ">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="X-Content-Type-Options" content="nosniff">
+    <meta name="X-Frame-Options" content="DENY">
+    <meta name="Referrer-Policy" content="no-referrer-when-downgrade">
+    <meta name="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=63072000; includeSubDomains; preload">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="Band.png" alt="Logo" class="logo">
+            <div class="header-text">
+                <h1>ATTIC STUDIOS</h1>
+                <p>Call for info: 0114 2789951</p>
+            </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <!-- Page content here -->
+        <section>
+            <h2>Rehearsal Spaces Available</h2>
+            <div class="full-width">
+                <div class="opening-times">
+                    <h3>Opening Times</h3>
+                    <ul>
+                        <li>Weekdays: 12pm - 9pm</li>
+                        <li>Saturdays: Closed</li>
+                        <li>Sundays: 12pm - 7pm</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="media-header">
+                <div class="media-header-item">Rehearsal Rooms</div>
+                <div class="media-header-item">Building Tour</div>
+            </div>
+
+            <div class="full-width media-container">
+                <div class="slideshow">
+                    <img src="drum.png" alt="Room 1">
+                    <img src="room.png" alt="Room 1">
+                    <img src="Room-3.png" alt="Room 1">
+                    <img src="Room-4.png" alt="Room 1">
+                </div>
+                <div class="youtube-video">
+                    <iframe src="https://www.youtube.com/embed/0qanF-91aJo" title="BLACK SABBATH - &quot;Paranoid&quot; (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="full-width">
+                <div class="right-column">
+    <h3>5 Rehearsal Rooms Fully Equipped With High Quality Equipment:</h3>
+    
+    
+    <!-- Room 1 -->
+    <div class="room">
+        <h4 class="room-title" onclick="toggleRoomDetails('room1')">Room 1 <i class="fas fa-chevron-down"></i></h4>
+        <div id="room1" class="room-details">
+            <div class="room-images">
+                <img src="drum.png" alt="Room 1">
+                <img src="room.png" alt="Room 1">
+                <img src="Room-3.png" alt="Room 1">
+                <img src="Room-4.png" alt="Room 1">
+            </div>
+            <div class="equipment-list">
+                <h5>Equipment:</h5>
+                <ul>
+                    <li>Drum Kit</li>
+                    <li>Amplifiers</li>
+                    <li>Microphones</li>
+                    <li>Mixing Console</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Room 2 -->
+    <div class="room">
+        <h4 class="room-title" onclick="toggleRoomDetails('room2')">Room 2 <i class="fas fa-chevron-down"></i></h4>
+        <div id="room2" class="room-details">
+            <div class="room-images">
+                <img src="drum.png" alt="Room 1">
+                <img src="room.png" alt="Room 1">
+                <img src="Room-3.png" alt="Room 1">
+                <img src="Room-4.png" alt="Room 1">
+            </div>
+            <div class="equipment-list">
+                <h5>Equipment:</h5>
+                <ul>
+                    <li>Drum Kit</li>
+                    <li>Guitar Amps</li>
+                    <li>Bass Amps</li>
+                    <li>Microphones</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Room 3 -->
+    <div class="room">
+        <h4 class="room-title" onclick="toggleRoomDetails('room3')">Room 3 <i class="fas fa-chevron-down"></i></h4>
+        <div id="room3" class="room-details">
+            <div class="room-images">
+                <img src="drum.png" alt="Room 1">
+                <img src="room.png" alt="Room 1">
+                <img src="Room-3.png" alt="Room 1">
+                <img src="Room-4.png" alt="Room 1">
+            </div>
+            <div class="equipment-list">
+                <h5>Equipment:</h5>
+                <ul>
+                    <li>Drum Kit</li>
+                    <li>Guitar Amps</li>
+                    <li>Bass Amps</li>
+                    <li>Microphones</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <!-- Room 4 -->
+        <div class="room">
+            <h4 class="room-title" onclick="toggleRoomDetails('room4')">Room 4 <i class="fas fa-chevron-down"></i></h4>
+            <div id="room4" class="room-details">
+                <div class="room-images">
+                    <img src="drum.png" alt="Room 1">
+                    <img src="room.png" alt="Room 1">
+                    <img src="Room-3.png" alt="Room 1">
+                    <img src="Room-4.png" alt="Room 1">
+                </div>
+                <div class="equipment-list">
+                    <h5>Equipment:</h5>
+                    <ul>
+                        <li>Drum Kit</li>
+                        <li>Guitar Amps</li>
+                        <li>Bass Amps</li>
+                        <li>Microphones</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <!-- Room 5 -->
+    <div class="room">
+        <h4 class="room-title" onclick="toggleRoomDetails('room5')">Room 5 <i class="fas fa-chevron-down"></i></h4>
+        <div id="room5" class="room-details">
+            <div class="room-images">
+                <img src="drum.png" alt="Room 1">
+                <img src="room.png" alt="Room 1">
+                <img src="Room-3.png" alt="Room 1">
+                <img src="Room-4.png" alt="Room 1">
+            </div>
+            <div class="equipment-list">
+                <h5>Equipment:</h5>
+                <ul>
+                    <li>Drum Kit</li>
+                    <li>Guitar Amps</li>
+                    <li>Bass Amps</li>
+                    <li>Microphones</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        </section>
+
+        <section class="location">
+            <h2>Where to find us.</h2>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19043.79994606327!2d-1.4887006!3d53.3705502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879787d3cc961fd%3A0x3f224019a1306a32!2sAttic%20Rehearsal%20Rooms!5e0!3m2!1sen!2suk!4v1724000441483!5m2!1sen!2suk" width="700" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-cross-origin"></iframe>
+            </div>
+            <div class="address">
+                <h3>Address</h3>
+                <ul>
+                    <li>Attic Recording Studios</li>
+                    <li>Unit S25</li>
+                    <li>The Lion</li>
+                    <li>Works/Ball St / Mowbray St</li>
+                    <li>Sheffield</li>
+                    <li>S3 8DB</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>No age or ability limits</p>
+        <p>Large secure off-road private car parks with CCTV</p>
+        <p>Please call if you require more info: 0114 2789951</p>
+    </footer>
+
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attic Studios</title>
+
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self'; 
+        script-src 'self' https://cdnjs.cloudflare.com 'unsafe-inline'; 
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; 
+        font-src 'self' https://fonts.gstatic.com; 
+        img-src 'self' data:; 
+        frame-src 'self' https://www.youtube.com https://www.google.com;
+        connect-src 'self'; 
+        object-src 'none'; 
+        form-action 'self'; 
+        base-uri 'self';
+    ">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="X-Content-Type-Options" content="nosniff">
+    <meta name="X-Frame-Options" content="DENY">
+    <meta name="Referrer-Policy" content="no-referrer-when-downgrade">
+    <meta name="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=63072000; includeSubDomains; preload">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="Band.png" alt="Logo" class="logo">
+            <div class="header-text">
+                <h1>ATTIC STUDIOS</h1>
+                <p>Call for info: 0114 2789951</p>
+            </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <!-- Page content here -->
+        <section>
+            <h2>Rehearsal Spaces Available</h2>
+            <div class="full-width">
+                <div class="opening-times">
+                    <h3>Opening Times</h3>
+                    <ul>
+                        <li>Weekdays: 12pm - 9pm</li>
+                        <li>Saturdays: Closed</li>
+                        <li>Sundays: 12pm - 7pm</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="media-header">
+                <div class="media-header-item">Rehearsal Rooms</div>
+                <div class="media-header-item">Building Tour</div>
+            </div>
+
+            <div class="full-width media-container">
+                <div class="slideshow">
+                    <img src="drum.png" alt="Room 1">
+                    <img src="room.png" alt="Room 1">
+                    <img src="Room-3.png" alt="Room 1">
+                    <img src="Room-4.png" alt="Room 1">
+                </div>
+                <div class="youtube-video">
+                    <iframe src="https://www.youtube.com/embed/0qanF-91aJo" title="BLACK SABBATH - &quot;Paranoid&quot; (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="full-width">
+                <div class="right-column">
+    <h3>5 Rehearsal Rooms Fully Equipped With High Quality Equipment:</h3>
+    
+    
+    <!-- Room 1 -->
+    <div class="room">
+        <h4 class="room-title" onclick="toggleRoomDetails('room1')">Room 1 <i class="fas fa-chevron-down"></i></h4>
+        <div id="room1" class="room-details">
+            <div class="room-images">
+                <img src="drum.png" alt="Room 1">
+                <img src="room.png" alt="Room 1">
+                <img src="Room-3.png" alt="Room 1">
+                <img src="Room-4.png" alt="Room 1">
+            </div>
+            <div class="equipment-list">
+                <h5>Equipment:</h5>
+                <ul>
+                    <li>Drum Kit</li>
+                    <li>Amplifiers</li>
+                    <li>Microphones</li>
+                    <li>Mixing Console</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Room 2 -->
+    <div class="room">
+        <h4 class="room-title" onclick="toggleRoomDetails('room2')">Room 2 <i class="fas fa-chevron-down"></i></h4>
+        <div id="room2" class="room-details">
+            <div class="room-images">
+                <img src="drum.png" alt="Room 1">
+                <img src="room.png" alt="Room 1">
+                <img src="Room-3.png" alt="Room 1">
+                <img src="Room-4.png" alt="Room 1">
+            </div>
+            <div class="equipment-list">
+                <h5>Equipment:</h5>
+                <ul>
+                    <li>Drum Kit</li>
+                    <li>Guitar Amps</li>
+                    <li>Bass Amps</li>
+                    <li>Microphones</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Room 3 -->
+    <div class="room">
+        <h4 class="room-title" onclick="toggleRoomDetails('room3')">Room 3 <i class="fas fa-chevron-down"></i></h4>
+        <div id="room3" class="room-details">
+            <div class="room-images">
+                <img src="drum.png" alt="Room 1">
+                <img src="room.png" alt="Room 1">
+                <img src="Room-3.png" alt="Room 1">
+                <img src="Room-4.png" alt="Room 1">
+            </div>
+            <div class="equipment-list">
+                <h5>Equipment:</h5>
+                <ul>
+                    <li>Drum Kit</li>
+                    <li>Guitar Amps</li>
+                    <li>Bass Amps</li>
+                    <li>Microphones</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <!-- Room 4 -->
+        <div class="room">
+            <h4 class="room-title" onclick="toggleRoomDetails('room4')">Room 4 <i class="fas fa-chevron-down"></i></h4>
+            <div id="room4" class="room-details">
+                <div class="room-images">
+                    <img src="drum.png" alt="Room 1">
+                    <img src="room.png" alt="Room 1">
+                    <img src="Room-3.png" alt="Room 1">
+                    <img src="Room-4.png" alt="Room 1">
+                </div>
+                <div class="equipment-list">
+                    <h5>Equipment:</h5>
+                    <ul>
+                        <li>Drum Kit</li>
+                        <li>Guitar Amps</li>
+                        <li>Bass Amps</li>
+                        <li>Microphones</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <!-- Room 5 -->
+    <div class="room">
+        <h4 class="room-title" onclick="toggleRoomDetails('room5')">Room 5 <i class="fas fa-chevron-down"></i></h4>
+        <div id="room5" class="room-details">
+            <div class="room-images">
+                <img src="drum.png" alt="Room 1">
+                <img src="room.png" alt="Room 1">
+                <img src="Room-3.png" alt="Room 1">
+                <img src="Room-4.png" alt="Room 1">
+            </div>
+            <div class="equipment-list">
+                <h5>Equipment:</h5>
+                <ul>
+                    <li>Drum Kit</li>
+                    <li>Guitar Amps</li>
+                    <li>Bass Amps</li>
+                    <li>Microphones</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        </section>
+
+        <section class="location">
+            <h2>Where to find us.</h2>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19043.79994606327!2d-1.4887006!3d53.3705502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879787d3cc961fd%3A0x3f224019a1306a32!2sAttic%20Rehearsal%20Rooms!5e0!3m2!1sen!2suk!4v1724000441483!5m2!1sen!2suk" width="700" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-cross-origin"></iframe>
+            </div>
+            <div class="address">
+                <h3>Address</h3>
+                <ul>
+                    <li>Attic Recording Studios</li>
+                    <li>Unit S25</li>
+                    <li>The Lion</li>
+                    <li>Works/Ball St / Mowbray St</li>
+                    <li>Sheffield</li>
+                    <li>S3 8DB</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>No age or ability limits</p>
+        <p>Large secure off-road private car parks with CCTV</p>
+        <p>Please call if you require more info: 0114 2789951</p>
+    </footer>
+
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+>>>>>>> 9cb6a11d876834114c609ea9c99194cc5dcb2ab3
